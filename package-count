@@ -1,0 +1,2 @@
+#~/bin/bash
+dpkg --list | wc -1

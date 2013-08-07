@@ -1,0 +1,3 @@
+#!/bin/bash
+apt-rdepends --dotty --state-follow=Installed --state-show=Installed $@ | dot -Tpng > tmp-graph.png
+mimeopen tmp-graph.png

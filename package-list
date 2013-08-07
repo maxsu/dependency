@@ -1,0 +1,4 @@
+#!/bin/bash
+#dpkg --get-selections
+# dpkg --list
+dpkg --get-selections | grep -o '^[a-zA-Z0-9:-.]*'
